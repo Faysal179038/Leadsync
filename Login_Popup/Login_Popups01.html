@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="Login_Popups01.css" />
+    <title>Login Popups01</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-panel">
+        <div class="logo">
+          <img src="Login_Popups01_logo.png" alt="Logo" />
+        </div>
+      </div>
+      <div class="right-panel">
+        <h1>Welcome Back!</h1>
+        <p>Amet minim mollit non desert.</p>
+        <form class="login-form">
+          <div class="input-group">
+            <div class="lable email">E-mail</div class="lable">
+            <input type="email" id="email" placeholder="example@gmail.com" />
+          </div>
+          <div class="input-group">
+            <div class="lable password">Password</div class="lable">
+            <div class="password-field">
+              <input type="password" id="password" placeholder="••••••••" />
+              <button type="button" class="toggle-password">
+                <i class="fa-regular fa-eye"></i>
+              </button>
+            </div>
+          </div>
+          <div class="actions">
+            <a href="#" class="forgot-password">Forgot Password</a>
+          </div>
+          <button type="submit" class="sign-in">Sign in</button>
+          <div class="extra-input">
+            <div class="lable firstname">First name</div class="lable">
+            <input type="text" id="firstname" placeholder="Input text" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
