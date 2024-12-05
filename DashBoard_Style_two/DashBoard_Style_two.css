@@ -161,6 +161,8 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .container nav h2 {
@@ -191,6 +193,7 @@ body {
   justify-content: space-between;
   position: relative;
   margin-left: 30px;
+  padding: 15px 15px 15px 0px;
 }
 
 .header h1 {
@@ -231,6 +234,10 @@ body {
   flex-direction: column;
   background-color: #ffffff;
   margin-left: 30px;
+  margin-right: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .statistics .statistics-header {
@@ -390,11 +397,17 @@ body {
   white-space: nowrap;
   font-weight: bold;
 }
+
 .metric-card .red {
   font-size: 18px;
-  color: red;
+  color: #e02424;
   margin-right: 330px;
 }
+
+.metric-card .red::before {
+  margin-right: 5px;
+}
+
 .metric-card small {
   color: #777;
   position: absolute;
@@ -406,7 +419,7 @@ body {
   color: #5145cd;
 }
 
-/* start metric-card */
+/* end metric-card */
 
 /* start Activities */
 .activities {
@@ -421,6 +434,11 @@ body {
   background-color: white;
   display: flex;
   justify-content: space-between;
+  padding: 5px;
+  padding-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .lead-activities div {
@@ -514,6 +532,11 @@ tbody tr td i::before {
 
 .recent-activates {
   background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+  padding: 10px;
 }
 
 .recent-activates .header {
@@ -538,9 +561,9 @@ tbody tr td i::before {
 }
 
 .timeline-entry .icon {
-  height: 30px;
-  width: 30px;
-  border: 5px solid;
+  height: 25px;
+  width: 25px;
+  border: 7px solid;
   border-radius: 50%;
 }
 .timeline-entry p {
@@ -557,9 +580,9 @@ tbody tr td i::before {
 .line {
   height: 450px;
   width: 10px;
-  border: 5px solid #888;
+  border: 5px solid #f3f4f6;
   z-index: 2;
   position: absolute;
-  left: 103px;
+  left: 110px;
   top: 88px;
 }
